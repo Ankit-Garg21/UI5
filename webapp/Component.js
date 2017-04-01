@@ -21,14 +21,14 @@ sap.ui.define([
             var oModel = new JSONModel(oData);
             this.setModel(oModel);
 
-            var i18nModel = new ResourceModel({
-                bundleName: "sap.ui.demo.wt.i18n.i18n"
-            });
-            this.setModel(i18nModel, "i18n");
+            // var i18nModel = new ResourceModel({
+            //     bundleName: "sap.ui.demo.wt.i18n.i18n"
+            // });
+            // this.setModel(i18nModel, "i18n");
 
-            var oInvoices = new JSONModel();
-            oInvoices.loadData("Invoices.json");
-            this.setModel(oInvoices, "invoice");
+            // var oInvoices = new JSONModel();
+            // oInvoices.loadData("Invoices.json");
+            // this.setModel(oInvoices, "invoice");
 
             this._helloDialog = new HelloDialog(this.getAggregation("rootControl"));
         },
