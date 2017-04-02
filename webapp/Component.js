@@ -31,6 +31,7 @@ sap.ui.define([
             // this.setModel(oInvoices, "invoice");
 
             this._helloDialog = new HelloDialog(this.getAggregation("rootControl"));
+            this.getRouter().initialize();
         },
 
         openHelloDialog: function() {
