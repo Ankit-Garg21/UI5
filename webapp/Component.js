@@ -36,6 +36,9 @@ sap.ui.define([
 
         openHelloDialog: function() {
             this._helloDialog.open();
+        },
+        setViewModel: function(model, view) {
+            this.setModel(model, view);
         }
     })
 });

@@ -52,6 +52,9 @@
                 "type": "sap.ui.model.json.JSONModel",
                 "uri": "Invoices.json",
                 "dataSourceXXX": "invoiceRemote"
+            },
+            "invoiceItem": {
+                "type": "sap.ui.model.json.JSONModel"
             }
         },
         "resources": {

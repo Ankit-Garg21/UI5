@@ -6,8 +6,8 @@
         showNavButton="true"
         navButtonPress="onNavBack"
         title="{i18n>detailPageTitle}">
-        <ObjectHeader 
-            title="Invoice"
-            intro="{invoice>ProductName}" />
+        <ObjectHeader
+            intro="{invoiceItem>/ShipperName}"
+            title="{invoiceItem>/ProductName}"/>
     </Page>
 </mvc:View>
